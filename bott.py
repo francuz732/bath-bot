@@ -15,7 +15,7 @@ from aiohttp import web
 # ======================
 TOKEN = os.getenv("BOT_TOKEN")
 
-bot = Bot(token=8506958649:AAFkYKq8SXIXN32JMQ1u2X_UJD9fK8lxmXs, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
+bot = Bot(token="8506958649:AAFkYKq8SXIXN32JMQ1u2X_UJD9fK8lxmXs", default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
 bathroom_status = {
